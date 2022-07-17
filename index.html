@@ -15,14 +15,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="app ">
+<body >
   <div id="animations-bg" class=" h-[699px]  bg-cover static " style="background-image:url(img/img03.jpg);">
 
-    <div class="flex space-x-9 justify-center items-center pt-4">
-      <div >
-        <a href=""> <img src="img/img44.png" alt=""></a>
+    <div class="flex space-x-9 justify-center items-center pt-4 xl:px-0 px-5">
+      <div>
+        <a href=""> <img class="w-[60px] md:w-[80px]" src="img/img44.png" alt=""></a>
       </div>
-      <ul class="flex text-white space-x-4 font-bold ">
+      <button id="btn" class="text-2xl text-white md:hidden block"><i class='bx bx-menu'></i></button>
+      <ul id="menu" class="md:flex text-white md:space-x-4 font-bold  md:block hidden   ">
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg "><a href="index.html">Trang chủ</a></li>
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Giới thiệu</a></li>
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Cửa hàng</a></li>
@@ -30,8 +31,8 @@
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Liên hệ</a></li>
 
       </ul>
-      <div class="text-white">
-        <input type="search" style="background-color:rgba(0, 0, 0,0.4 ) ;" class="p-2 rounded-full w-60"
+      <div class="text-white ">
+        <input type="search" style="background-color:rgba(0, 0, 0,0.4 ) ;" class="p-2 rounded-full w-32 md:w-60"
           placeholder="Tìm kiếm...... ">
 
       </div>
@@ -49,7 +50,7 @@
     </div>
     <!-- end -->
     <div
-      class="flex justify-center space-x-20 max-w-7xl m-auto shadow-2xl p-4 bg-white   absolute  top-[650px] left-[440px]">
+      class="flex justify-center space-x-20 max-w-7xl m-auto shadow-2xl p-4 bg-white   absolute  top-[650px] left-[440px] ">
       <div class="text-center">
         <a href="">
           <img src="img/img04.jpg" alt="">
@@ -113,7 +114,7 @@
       </div>
     </div>
     <!-- end -->
-    <div class="bg-white mt-8 shadow-2xl">
+    <div id="main" class="bg-white mt-8 shadow-2xl  ">
       <h5 class="text-center text-4xl font-bold">Sản Phẩm Bán Chạy</h5>
       <div class="flex justify-around pt-4">
         <div class="text-center">
@@ -330,29 +331,26 @@
 
 
 
-
+  <script src="main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
   <script>
     VANTA.BIRDS({
       el: "#animations-bg",
       mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  backgroundColor: 0x0,
-  color1: 0xff003c,
-  color2: 0xff1e,
-  birdSize: 1.30,
-  wingSpan: 21.00,
-  speedLimit: 4.00,
-  separation: 67.00,
-  alignment: 29.00,
-  cohesion: 17.00
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      colorMode: "lerp",
+      birdSize: 1.30,
+      wingSpan: 26.00,
+      quantity: 4.00,
+      backgroundAlpha: 0.0
     })
+
   </script>
 </body>
 
