@@ -24,8 +24,8 @@
       </div>
       <button id="btn" class="text-2xl text-white md:hidden block"><i class='bx bx-menu'></i></button>
       <ul id="menu" class="md:flex text-white md:space-x-4 font-bold  md:block hidden   ">
-        <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg "><a href="index.html">Trang chủ</a></li>
-        <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Giới thiệu</a></li>
+        <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg  "><a href="index.html">Trang chủ</a></li>
+        <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg "><a href="">Giới thiệu</a></li>
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Cửa hàng</a></li>
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Kiến thức</a></li>
         <li class="p-4 hover:bg-[#8cc63f] hover:rounded-lg"><a href="">Liên hệ</a></li>
@@ -35,6 +35,12 @@
         <input type="search" style="background-color:rgba(0, 0, 0,0.4 ) ;" class="p-2 rounded-full w-32 md:w-60"
           placeholder="Tìm kiếm...... ">
 
+      </div>
+      <div>
+        <a href="sign_up.php" class="p-4 hover:bg-[#8cc63f] hover:rounded-lg  text-white ">Đăng kí</a>
+      </div>
+      <div>
+        <a href="login.php" class="p-4 hover:bg-[#8cc63f] hover:rounded-lg  text-white ">Đăng Nhập</a>
       </div>
     </div>
 
@@ -124,7 +130,7 @@
 
           </a>
 
-          <div class="pt-4">
+          <div class="py-4">
             <span class="hover:text-[#8cc63f]">Bắp cải</span>
             <p class="text-[#8cc63f]">65,000đ</p>
           </div>
@@ -135,7 +141,7 @@
               class="transition ease-in-out delay-150  hover:-translate-1 hover:scale-110 duration-700 w-[235px] "
               src="img/img16.jpg" alt=""></a>
 
-          <div class="pt-4">
+          <div class="py-4">
             <span class="hover:text-[#8cc63f]">Bắp mỹ</span>
             <p class="text-[#8cc63f]">75,000đ</p>
           </div>
@@ -146,7 +152,7 @@
               class="transition ease-in-out delay-150  hover:-translate-1 hover:scale-110 duration-700 w-[235px] "
               src="img/img17.jpg" alt=""></a>
 
-          <div class="pt-4">
+          <div class="py-4">
             <span class="hover:text-[#8cc63f]">Chuối Organic</span>
             <p class="text-[#8cc63f]">35,000đ</p>
           </div>
@@ -157,7 +163,7 @@
               class="transition ease-in-out delay-150  hover:-translate-1 hover:scale-110 duration-700 w-[235px] "
               src="img/img18.jpg" alt=""></a>
 
-          <div class="pt-4">
+          <div class="py-4">
             <span class="hover:text-[#8cc63f]">Cà chua</span>
             <p class="text-[#8cc63f]">75,000đ</p>
           </div>
@@ -203,8 +209,8 @@
                   src="img/img24.jpg" alt=""></a>
 
               <div class="pt-4">
-                <span class="hover:text-[#8cc63f] ">Xoài cát Hòa Lộc</span>
-                <p class="text-[#8cc63f]">130,000đ</p>
+                <p class="hover:text-[#8cc63f] ">Xoài cát Hòa Lộc</p>
+                <del >130,000đ</del><p class="text-[#8cc63f]">90,000đ</p>
               </div>
 
             </div>
@@ -214,8 +220,9 @@
                   src="img/img25.jpeg" alt=""></a>
 
               <div class="pt-4">
-                <span class="hover:text-[#8cc63f]">Bơ sáp 034 Lâm Đồng</span>
-                <p class="text-[#8cc63f]">135,000đ</p>
+                <p class="hover:text-[#8cc63f]">Bơ sáp 034 Lâm Đồng</p>
+                <del >135,000đ</del><p class="text-[#8cc63f]">90,000đ</p>
+               
               </div>
 
             </div>
@@ -225,8 +232,8 @@
                   src="img/img28.jpg" alt=""></a>
 
               <div class="pt-4">
-                <span class="hover:text-[#8cc63f]">Cá Bình Định</span>
-                <p class="text-[#8cc63f]">195,000đ</p>
+                <p class="hover:text-[#8cc63f]">Cá Bình Định</p>
+                <del >195,000đ</del><p class="text-[#8cc63f]">90,000đ</p>
               </div>
 
             </div>
@@ -236,8 +243,8 @@
                   src="img/img27.jpg" alt=""></a>
 
               <div class="pt-4">
-                <span class="hover:text-[#8cc63f]">Cam xoàn hướng hữu cơ</span>
-                <p class="text-[#8cc63f]">65,000đ</p>
+                <p class="hover:text-[#8cc63f]">Cam xoàn hướng hữu cơ</p>
+                <del >65,000đ</del><p class="text-[#8cc63f]">30,000đ</p>
               </div>
 
             </div>
